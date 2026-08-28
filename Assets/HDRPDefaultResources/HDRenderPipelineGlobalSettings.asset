@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
+  m_Name: HDRenderPipelineGlobalSettings
+  m_EditorClassIdentifier: 
+  m_CustomPostProcessOrdersSettings:
+    m_Version: 0
+    m_BeforeTransparentCustomPostProcesses:
+      m_InjectionPoint: 0
+      m_CustomPostProcessTypesAsString: []
+    m_BeforeTAACustomPostProcesses:
+      m_InjectionPoint: 3
+      m_CustomPostProcessTypesAsString: []
+    m_BeforePostProcessCustomPostProcesses:
+      m_InjectionPoint: 1
+      m_CustomPostProcessTypesAsString: []
+    m_AfterPostProcessBlursCustomPostProcesses:
+      m_InjectionPoint: 4
+      m_CustomPostProcessTypesAsString: []
+    m_AfterPostProcessCustomPostProcesses:
+      m_InjectionPoint: 2
+      m_CustomPostProcessTypesAsString: []
+  beforeTransparentCustomPostProcesses: []
+  beforePostProcessCustomPostProcesses: []
+  afterPostProcessBlursCustomPostProcesses: []
+  afterPostProcessCustomPostProcesses: []
+  beforeTAACustomPostProcesses: []
+  m_ShaderStrippingSetting:
+    m_Version: 0
+    m_ExportShaderVariants: 1
+    m_ShaderVariantLogLevel: 0
+    m_StripRuntimeDebugShaders: 0
+  m_ShaderVariantLogLevel: 0
+  m_SupportRuntimeDebugDisplay: 1
+  m_ExportShaderVariants: 1
+  m_StripDebugVariants: 0
+  DLSSProjectId: 000000
+  useDLSSCustomProjectId: 0
+  supportProbeVolumes: 1
+  autoRegisterDiffusionProfiles: 0
+  analyticDerivativeEmulation: 0
+  analyticDerivativeDebugOutput: 0
+  lensAttenuationMode: 0
+  colorGradingSpace: 0
+  m_ObsoleteDiffusionProfileSettingsList:
+  - {fileID: 11400000, guid: 8ff64253f62dd1346a5038293d44fa39, type: 2}
+  - {fileID: 11400000, guid: 14035658b052d6c438430a23dbd7abf6, type: 2}
+  - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
+  specularFade: 0
+  rendererListCulling: 0
+  m_ObsoleteDefaultVolumeProfile: {fileID: 0}
+  m_ObsoleteLookDevVolumeProfile: {fileID: 0}
+  m_ObsoleteRenderingPathDefaultCameraFrameSettings:
+    bitDatas:
+      data1: 72198260625768269
+      data2: 13799031439032811544
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
+    msaaMode: 1
+    materialQuality: 0
+  m_ObsoleteRenderingPathDefaultBakedOrCustomReflectionFrameSettings:
+    bitDatas:
+      data1: 135310754214733
+      data2: 4539628428684427288
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
+    msaaMode: 1
+    materialQuality: 0
+  m_ObsoleteRenderingPathDefaultRealtimeReflectionFrameSettings:
+    bitDatas:
+      data1: 139923391782733
+      data2: 13763000465807638544
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
+    msaaMode: 1
+    materialQuality: 0
+  m_ObsoleteRenderingPath:
+    m_Version: 0
+    m_Camera:
+      bitDatas:
+        data1: 72198260625768269
+        data2: 13799031439032811544
+      lodBias: 1
+      lodBiasMode: 0
+      lodBiasQualityLevel: 0
+      maximumLODLevel: 0
+      maximumLODLevelMode: 0
+      maximumLODLevelQualityLevel: 0
+      sssQualityMode: 0
+      sssQualityLevel: 0
+      sssCustomSampleBudget: 20
+      sssCustomDownsampleSteps: 0
+      msaaMode: 1
+      materialQuality: 0
+    m_CustomOrBakedReflection:
+      bitDatas:
+        data1: 135310754214733
+        data2: 4539628428684427288
+      lodBias: 1
+      lodBiasMode: 0
+      lodBiasQualityLevel: 0
+      maximumLODLevel: 0
+      maximumLODLevelMode: 0
+      maximumLODLevelQualityLevel: 0
+      sssQualityMode: 0
+      sssQualityLevel: 0
+      sssCustomSampleBudget: 20
+      sssCustomDownsampleSteps: 0
+      msaaMode: 1
+      materialQuality: 0
+    m_RealtimeReflection:
+      bitDatas:
+        data1: 139923391782733
+        data2: 13763000465807638544
+      lodBias: 1
+      lodBiasMode: 0
+      lodBiasQualityLevel: 0
+      maximumLODLevel: 0
+      maximumLODLevelMode: 0
+      maximumLODLevelQualityLevel: 0
+      sssQualityMode: 0
+      sssQualityLevel: 0
+      sssCustomSampleBudget: 20
+      sssCustomDownsampleSteps: 0
+      msaaMode: 1
+      materialQuality: 0
+  m_Version: 14
+  m_Settings:
+    m_SettingsList:
+      m_List:
+      - rid: 2615381104424910926
+      - rid: 2615381104424910927
+      - rid: 2615381104424910928
+      - rid: 2615381104424910929
+      - rid: 2615381104424910930
+      - rid: 2615381104424910931
+      - rid: 2615381104424910932
+      - rid: 2615381104424910933
+      - rid: 2615381104424910934
+      - rid: 2615381104424910935
+      - rid: 2615381104424910936
+    m_RuntimeSettings:
+      m_List: []
+  renderingLayerNames:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  lightLayerName0: 
+  lightLayerName1: 
+  lightLayerName2: 
+  lightLayerName3: 
+  lightLayerName4: 
+  lightLayerName5: 
+  lightLayerName6: 
+  lightLayerName7: 
+  decalLayerName0: 
+  decalLayerName1: 
+  decalLayerName2: 
+  decalLayerName3: 
+  decalLayerName4: 
+  decalLayerName5: 
+  decalLayerName6: 
+  decalLayerName7: 
+  apvScenesData:
+    obsoleteSceneBounds:
+      m_Keys: []
+      m_Values: []
+    obsoleteHasProbeVolumes:
+      m_Keys: []
+      m_Values: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 2615381104424910926
+      type: {class: ShaderStrippingSetting, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 0
+        m_ExportShaderVariants: 1
+        m_ShaderVariantLogLevel: 0
+        m_StripRuntimeDebugShaders: 0
+    - rid: 2615381104424910927
+      type: {class: RenderingPathFrameSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_Camera:
+          bitDatas:
+            data1: 72198260625768269
+            data2: 13799031439032811544
+          lodBias: 1
+          lodBiasMode: 0
+          lodBiasQualityLevel: 0
+          maximumLODLevel: 0
+          maximumLODLevelMode: 0
+          maximumLODLevelQualityLevel: 0
+          sssQualityMode: 0
+          sssQualityLevel: 0
+          sssCustomSampleBudget: 20
+          sssCustomDownsampleSteps: 0
+          msaaMode: 1
+          materialQuality: 0
+        m_CustomOrBakedReflection:
+          bitDatas:
+            data1: 135310754214733
+            data2: 4539628428684427288
+          lodBias: 1
+          lodBiasMode: 0
+          lodBiasQualityLevel: 0
+          maximumLODLevel: 0
+          maximumLODLevelMode: 0
+          maximumLODLevelQualityLevel: 0
+          sssQualityMode: 0
+          sssQualityLevel: 0
+          sssCustomSampleBudget: 20
+          sssCustomDownsampleSteps: 0
+          msaaMode: 1
+          materialQuality: 0
+        m_RealtimeReflection:
+          bitDatas:
+            data1: 139923391782733
+            data2: 13763000465807638544
+          lodBias: 1
+          lodBiasMode: 0
+          lodBiasQualityLevel: 0
+          maximumLODLevel: 0
+          maximumLODLevelMode: 0
+          maximumLODLevelQualityLevel: 0
+          sssQualityMode: 0
+          sssQualityLevel: 0
+          sssCustomSampleBudget: 20
+          sssCustomDownsampleSteps: 0
+          msaaMode: 1
+          materialQuality: 0
+    - rid: 2615381104424910928
+      type: {class: DiffusionProfileDefaultSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_AutoRegisterDiffusionProfiles: 0
+    - rid: 2615381104424910929
+      type: {class: SpecularFadeSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_SpecularFade: 0
+    - rid: 2615381104424910930
+      type: {class: ColorGradingSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_ColorGradingSpace: 0
+    - rid: 2615381104424910931
+      type: {class: LensSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_LensAttenuationMode: 0
+    - rid: 2615381104424910932
+      type: {class: AnalyticDerivativeSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_AnalyticDerivativeEmulation: 0
+        m_AnalyticDerivativeDebugOutput: 0
+    - rid: 2615381104424910933
+      type: {class: RenderGraphSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_DynamicRenderPassCulling: 0
+    - rid: 2615381104424910934
+      type: {class: CustomPostProcessOrdersSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_BeforeTransparentCustomPostProcesses:
+          m_InjectionPoint: 0
+          m_CustomPostProcessTypesAsString: []
+        m_BeforeTAACustomPostProcesses:
+          m_InjectionPoint: 3
+          m_CustomPostProcessTypesAsString: []
+        m_BeforePostProcessCustomPostProcesses:
+          m_InjectionPoint: 1
+          m_CustomPostProcessTypesAsString: []
+        m_AfterPostProcessBlursCustomPostProcesses:
+          m_InjectionPoint: 4
+          m_CustomPostProcessTypesAsString: []
+        m_AfterPostProcessCustomPostProcesses:
+          m_InjectionPoint: 2
+          m_CustomPostProcessTypesAsString: []
+    - rid: 2615381104424910935
+      type: {class: HDRPDefaultVolumeProfileSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_VolumeProfile: {fileID: 11400000, guid: 22558c94ed907dc46a057b39c54e6f8c,
+          type: 2}
+    - rid: 2615381104424910936
+      type: {class: LookDevVolumeProfileSettings, ns: UnityEngine.Rendering.HighDefinition,
+        asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_VolumeProfile: {fileID: 11400000, guid: 4594f4a3fb14247e192bcca6dc23c8ed,
+          type: 2}

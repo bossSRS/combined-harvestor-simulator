@@ -1,0 +1,20 @@
+Simulator_Version_Type = 0,
+RPM_Data = 1,
+Steering_Right = 2
+Steering_Down = 3,
+Steering_Up = 4,
+Steering_Left = 5,
+Reer_Control_Wheel_Down = 6,
+Reer_Control_Wheel_Up = 7
+Unload_Pipe_Control_Switch_Down = 8
+Unload_Pipe_Control_Switch_Up = 9
+SubTransmission/HTL_Forward = 10
+11
+TranmissionLever_Travel = 12
+TranmissionLever_Neutral = 13
+TranmissionLever_Fast_Harvesting = 14
+Cutting Lever Forward = 15
+Unloading_Pipe_Control_Switch_Left = 16
+Unloading_Pipe_Control_Switch_Right = 17
+Thashing Lever Backward = 18
+SubTransmission/HTL_Backward = 19
